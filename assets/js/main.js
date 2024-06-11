@@ -13,10 +13,10 @@ function updateCountdown() {
         const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-        document.getElementById("days").innerText = `${days} Days`;
-        document.getElementById("hours").innerText = `${hours} Hours`;
-        document.getElementById("minutes").innerText = `${minutes} Minutes`;
-        document.getElementById("seconds").innerText = `${seconds} Seconds`;
+        document.getElementById("days").innerText = `${days}`;
+        document.getElementById("hours").innerText = `${hours} `;
+        document.getElementById("minutes").innerText = `${minutes} `;
+        document.getElementById("seconds").innerText = `${seconds} `;
     } else {
         document.getElementById("countdown").innerText = "The event has started!";
     }
