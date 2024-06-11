@@ -1,0 +1,13 @@
+
+body {
+    margin: 0;
+    background-image: url('../img/LadireBaseBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.countdown {
+    background-image: url('../img/LadireBase.png');
+}
