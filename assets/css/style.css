@@ -1966,6 +1966,11 @@ video {
   padding-right: 80px;
 }
 
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .text-left {
   text-align: left;
 }
