@@ -1,6 +1,6 @@
 // Set the target date to 100 days from June 13th, Nigerian time
 const targetDate = new Date("2024-06-11T00:00:00+01:00");
-targetDate.setDate(targetDate.getDate() + 102);
+targetDate.setDate(targetDate.getDate() + 103);
 
 function updateCountdown() {
     const now = new Date().toLocaleString("en-US", { timeZone: "Africa/Lagos" });
